@@ -1,0 +1,28 @@
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths  = ["tests"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mikesh"
+version = "0.0.1"
+authors = [
+	{ name="Mikesh Foundation", email="author@example.com" },
+]
+description = "Package for working with neutron spectra."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+	"Intended Audience :: Science/Research",
+	"Topic :: Scientific/Engineering :: Physics"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Mikesh-Foundation/mikesh"
+"Bug Tracker" = "https://github.com/Mikesh-Foundation/mikesh/issues"
